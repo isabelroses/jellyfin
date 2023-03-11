@@ -1,0 +1,185 @@
+:root {
+    --main-color: #74c7ec;
+    --main-background: #1E1E2E;
+    --second-background: #181825;
+    --hover-background: #313244;
+    --main-text: #CDD6F4;
+    --dimmer-text: #9399B2;
+    --green-color: #a6e3a1;
+    --red-color: #f38ba8;
+}
+
+::-moz-selection {
+    background: var(--main-color);
+    color: var(--main-background);
+    text-shadow: none;
+}
+
+::selection {
+    background: var(--main-color);
+    color: var(--main-background);
+    text-shadow: none;
+}
+
+.backgroundContainer,
+.formDialogHeader,
+.dialog,
+.dashboardGeneralForm,
+html {
+    background-color: var(--main-background);
+}
+
+.skinHeader,
+.nowPlayingBar {
+    background-color: var(--second-background);
+}
+
+.mainDrawer,
+.cardBox,
+.paperList {
+    background: var(--main-background);
+}
+
+.navMenuOption-selected {
+    background-color: var(--main-color);
+}
+
+.itemName {
+    color: var(--main-text);
+}
+
+.emby-input,
+.emby-textarea,
+.emby-select {
+    background: var(--second-background);
+    border-color: var(--second-background);
+}
+
+.emby-input:focus,
+.emby-textarea:focus,
+.emby-input:hover,
+.emby-textarea:hover,
+.emby-select-withcolor {
+    border-color: var(--main-color) !important;
+}
+
+.emby-button-foreground {
+    color: var(--main-text);
+}
+
+.emby-button-foreground:hover,
+.emby-button-foreground:focus {
+    color: var(--main-color);
+}
+
+.paper-icon-button-light {
+    color: var(--main-text);
+}
+
+.paper-icon-button-light:hover,
+.paper-icon-button-light:focus,
+.listItem:hover,
+.listItem:focus,
+.navMenuOption:hover,
+.navMenuOption:focus {
+    color: var(--main-color);
+    background-color: var(--hover-background);
+}
+
+.emby-tab-button-active>.emby-button-foreground {
+    color: var(--main-color);
+}
+
+.button-submit,
+.button-submit:focus,
+.button-alt,
+.button-alt:focus,
+.submit,
+.submit:focus,
+#btnAddPerson,
+#btnAddPerson:focus,
+.btnAddTrigger,
+.btnAddTrigger:focus,
+.btnAddUser,
+.btnAddUser:focus {
+    color: var(--main-background);
+    background: var(--main-color);
+}
+
+.cardText-secondary {
+    color: var(--dimmer-text);
+}
+
+.button-cancel,
+.button-cancel:focus {
+    color: var(--main-color);
+    background: var(--main-background);
+}
+
+#btnShutdown,
+#deviceDeleteAll,
+.btnDeleteImage,
+.btnResetPassword {
+    color: var(--main-background);
+    background: var(--red-color);
+}
+
+.btnRefresh {
+    background: var(--main-color);
+    color: var(--main-background);
+}
+
+.backgroundContainer.withBackdrop,
+.backdropContainer,
+.backgroundContainer {
+    background: var(--main-background);
+}
+
+.headerRight,
+.headerLeft {
+    color: var(--main-color);
+}
+
+.listItemButton,
+.lnkMediaFolder {
+    color: var(--main-text);
+}
+
+.listItemButton:hover,
+.listItemButton:focus {
+    background-color: var(--main-color);
+}
+
+.indicator {
+    background-color: var(--main-color);
+    color: var(--main-background);
+}
+
+.playedIndicator {
+    background-color: var(--green-color);
+    color: var(--main-background);
+}
+
+.alphaPickerRow {
+    color: var(--dimmer-text);
+}
+
+.itemAction:hover,
+.itemAction:focus {
+    color: var(--main-color);
+}
+
+/* General focus element color */
+
+.layout-tv .paper-icon-button-light.show-focus:focus {
+    color: var(--main-color) !important;
+}
+
+.emby-button.show-focus:focus {
+    background: var(--main-color) !important;
+}
+
+.button-flat:focus,
+.button-flat:hover {
+    color: var(--main-color);
+}
