@@ -40,8 +40,10 @@ html {
     background: var(--main-background);
 }
 
-.navMenuOption-selected {
+.navMenuOption-selected,
+.navMenuOption-selected:hover {
     background-color: var(--main-color);
+    color: var(--main-background);
 }
 
 .itemName {
@@ -182,4 +184,39 @@ html {
 .button-flat:focus,
 .button-flat:hover {
     color: var(--main-color);
+}
+
+.sectionTitle,
+.cardText,
+.pageTitle,
+.detailSectionContent,
+.trackSelections,
+.emby-input,
+.checkboxLabel,
+.itemDetailsGroup,
+.checkboxOutline,
+.emby-textarea,
+.emby-select,
+.label,
+.selectLabel,
+.sidebarHeader,
+.listItem,
+.dashboardGeneralForm,
+.dashboardSections,
+.navMenuOption,
+.inputLabel,
+.content-primary,
+legend {
+    color: var(--main-text);
+}
+
+.fieldDescription,
+.secondary,
+.listItemBodyText {
+    color: var(--dimmer-text);
+}
+
+.sessionAppName,
+.sessionNowPlayingInfo {
+    color: var(--main-background);
 }

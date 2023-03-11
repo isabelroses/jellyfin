@@ -183,3 +183,38 @@ html {
 .button-flat:hover {
     color: var(--main-color);
 }
+
+.sectionTitle,
+.cardText,
+.pageTitle,
+.detailSectionContent,
+.trackSelections,
+.emby-input,
+.checkboxLabel,
+.itemDetailsGroup,
+.checkboxOutline,
+.emby-textarea,
+.emby-select,
+.label,
+.selectLabel,
+.sidebarHeader,
+.listItem,
+.dashboardGeneralForm,
+.dashboardSections,
+.navMenuOption,
+.inputLabel,
+.content-primary,
+legend {
+    color: var(--main-text);
+}
+
+.fieldDescription,
+.secondary,
+.listItemBodyText {
+    color: var(--dimmer-text);
+}
+
+.sessionAppName,
+.sessionNowPlayingInfo {
+    color: var(--main-background);
+}

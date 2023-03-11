@@ -1,12 +1,12 @@
 :root {
-    --main-color: #7dc4e4;
-    --main-background: #24273a;
-    --second-background: #1e2030;
-    --hover-background: #363a4f;
-    --main-text: #cad3f5;
-    --dimmer-text: #939ab7;
-    --green-color: #a6da95;
-    --red-color: #ed8796;
+    --main-color: #85c1dc;
+    --main-background: #303446;
+    --second-background: #292c3c;
+    --hover-background: #737994;
+    --main-text: #c6d0f5;
+    --dimmer-text: #949cbb;
+    --green-color: #a6d189;
+    --red-color: #e78284;
 }
 
 ::-moz-selection {
@@ -182,4 +182,39 @@ html {
 .button-flat:focus,
 .button-flat:hover {
     color: var(--main-color);
+}
+
+.sectionTitle,
+.cardText,
+.pageTitle,
+.detailSectionContent,
+.trackSelections,
+.emby-input,
+.checkboxLabel,
+.itemDetailsGroup,
+.checkboxOutline,
+.emby-textarea,
+.emby-select,
+.label,
+.selectLabel,
+.sidebarHeader,
+.listItem,
+.dashboardGeneralForm,
+.dashboardSections,
+.navMenuOption,
+.inputLabel,
+.content-primary,
+legend {
+    color: var(--main-text);
+}
+
+.fieldDescription,
+.secondary,
+.listItemBodyText {
+    color: var(--dimmer-text);
+}
+
+.sessionAppName,
+.sessionNowPlayingInfo {
+    color: var(--main-background);
 }
